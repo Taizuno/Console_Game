@@ -39,4 +39,8 @@ using System.Threading.Tasks;
             }
             return null;
         }
+        public int WeaponCount()
+        {
+            return _count;
+        }
     }

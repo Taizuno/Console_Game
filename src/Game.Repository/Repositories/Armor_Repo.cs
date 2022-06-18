@@ -38,5 +38,9 @@ using System.Threading.Tasks;
                 }
             }
             return null;
+        }
+        public int ArmorCount()
+        {
+            return _count;
         }   
     }
