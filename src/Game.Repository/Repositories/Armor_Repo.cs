@@ -10,7 +10,7 @@ using System.Threading.Tasks;
         private readonly List<Armor> _armorRepo = new List<Armor>();
         private int _count;
 
-        public bool addWeaponToDB(Armor tool)
+        public bool addArmorToDB(Armor tool)
         {
             if(tool != null)
             {
