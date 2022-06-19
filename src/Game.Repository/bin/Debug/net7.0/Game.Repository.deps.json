@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Game.Repository/1.0.0": {
+        "dependencies": {
+          "Game.Data": "1.0.0"
+        },
+        "runtime": {
+          "Game.Repository.dll": {}
+        }
+      },
+      "Game.Data/1.0.0": {
+        "runtime": {
+          "Game.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Game.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Game.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -87,6 +87,12 @@ using System.Threading.Tasks;
                         Charge(Player);
                         break;
                 }
+                if(NPC.HP < 0)
+                {
+                    break;
+                }
+                else
+                {
                 int act = random.Next(1,4);
                 switch(act)
                 {
@@ -107,12 +113,13 @@ using System.Threading.Tasks;
                         Charge(NPC);
                         break;
                 }
+                }
             }
             Console.Clear();
             if(NPC.HP > 0)
             {
                 System.Console.WriteLine
-                ("YOU LOSE! \n"
+                ("       YOU LOSE! \n"
                 +"Better luck next time");
             }
             else
@@ -122,8 +129,9 @@ using System.Threading.Tasks;
             }
             bool invalid = true;
             while(invalid)
+            {
             System.Console.WriteLine("Play again? y/n \n");
-            string answer = Console.ReadLine().ToLower();
+            string answer = Console.ReadLine();
             if(answer == "n")
             {
                 Running = CloseApp();
@@ -138,6 +146,7 @@ using System.Threading.Tasks;
             else
             {
                 invalid = false;
+            }
             }
         }
     }
@@ -190,9 +199,9 @@ using System.Threading.Tasks;
         System.Console.WriteLine("Enter ID of Weapon you wish to use");
         string name = Console.ReadLine();
         int id = int.Parse(name);
-        player.weapon = _wRepo.ViewWeaponByID(id);
-        if(player.weapon != null)
+        if(_wRepo.ViewWeaponByID(id) != null)
         {
+            player.weapon = _wRepo.ViewWeaponByID(id);
             check = true;
         }
         else

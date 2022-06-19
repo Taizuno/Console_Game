@@ -1,0 +1,12 @@
+C:\Users\Thund\Downloads\EFProjects\CF\assignments\TRPG_Game\src\Game.Data\bin\Debug\net7.0\Game.Data.deps.json
+C:\Users\Thund\Downloads\EFProjects\CF\assignments\TRPG_Game\src\Game.Data\bin\Debug\net7.0\Game.Data.dll
+C:\Users\Thund\Downloads\EFProjects\CF\assignments\TRPG_Game\src\Game.Data\bin\Debug\net7.0\Game.Data.pdb
+C:\Users\Thund\Downloads\EFProjects\CF\assignments\TRPG_Game\src\Game.Data\obj\Debug\net7.0\Game.Data.csproj.AssemblyReference.cache
+C:\Users\Thund\Downloads\EFProjects\CF\assignments\TRPG_Game\src\Game.Data\obj\Debug\net7.0\Game.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thund\Downloads\EFProjects\CF\assignments\TRPG_Game\src\Game.Data\obj\Debug\net7.0\Game.Data.AssemblyInfoInputs.cache
+C:\Users\Thund\Downloads\EFProjects\CF\assignments\TRPG_Game\src\Game.Data\obj\Debug\net7.0\Game.Data.AssemblyInfo.cs
+C:\Users\Thund\Downloads\EFProjects\CF\assignments\TRPG_Game\src\Game.Data\obj\Debug\net7.0\Game.Data.csproj.CoreCompileInputs.cache
+C:\Users\Thund\Downloads\EFProjects\CF\assignments\TRPG_Game\src\Game.Data\obj\Debug\net7.0\Game.Data.dll
+C:\Users\Thund\Downloads\EFProjects\CF\assignments\TRPG_Game\src\Game.Data\obj\Debug\net7.0\refint\Game.Data.dll
+C:\Users\Thund\Downloads\EFProjects\CF\assignments\TRPG_Game\src\Game.Data\obj\Debug\net7.0\Game.Data.pdb
+C:\Users\Thund\Downloads\EFProjects\CF\assignments\TRPG_Game\src\Game.Data\obj\Debug\net7.0\ref\Game.Data.dll
